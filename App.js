@@ -54,7 +54,6 @@ function App() {
           To-Do App
         </h1>
 
-        {/* Add Task Section */}
         <div className="flex mb-4">
           <input
             type="text"
@@ -71,7 +70,6 @@ function App() {
           </button>
         </div>
 
-        {/* Task List */}
         <ul>
           {tasks.map((task) => (
             <li
@@ -100,7 +98,6 @@ function App() {
                 </span>
               )}
 
-              {/* Action Buttons */}
               <div className="flex gap-2">
                 {editTaskId === task.id ? (
                   <button
